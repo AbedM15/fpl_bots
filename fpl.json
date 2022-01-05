@@ -1,0 +1,31 @@
+{"intents":[
+    {"tag":"greeting", 
+    "patterns":["Hi","How are you", "Hello", "hey"],
+    "responses":["Hello, how are you?", "Hello how can I help?"]
+},
+    {"tag":"goodbye",
+    "patterns":["goodbye", "bye", "see you later"],
+    "responses":["See you later, hope you've been informed", "Bye, Stay safe", "Get vaxxed and stay masked."]
+    },
+    {"tag":"top_players",
+        "patterns":["Who's leading on pts?","Which player is hot?", "Who's most likely to get me points?", "Who would you recommend"],
+        "responses":["Mo Salah", "Kevin De Bruyne", "Cristiano", "Lukaku's on a redemption", "Raheem Sterling"]
+    },
+    {"tag":"super_sub",
+        "patterns":["Which player should be on the bench?", "What's your thought on my subs?","How are my subs?"],
+        "responses":["You could do with Trippier over there!", "Looks fine by me", "Good to go!", "May I suggest El Ghazi"]
+    },
+    {"tag":"hot_teams",
+    "patterns":["Which prem club looks hot rn?", "Which league team's on form?"],
+    "responses":["Brentford plays really well", "City's unstoppable","Arsenal's woken up recently"]    
+    },
+    {"tag":"cards_explained",
+    "patterns":["How do the chips work?", "What are chips?"],
+    "responses":["Chips are 'boosters'for your club that you can strategically use as a manager to get ahead \n We have: \n1. Wildcard \n2.Triple Captain \n3.Bench boost \n4.Free Hit\n For a more detailed info say 'Info' "]
+    },
+    {"tag":"detailed_info",
+        "patterns":["info", "INFO"],
+        "responses":["Wildcard allows you to make unlimited permanent(changes made will stay after the gameweek) transfers with no points hit \nTriple captain triples your captain's points instead of the normal double \nBench boost adds on your bench's pts to your normal pts for a particular gameweek \n Free Hit allows you to make temporary transfers that will be reverted after the gameweek"]
+        }
+
+]}
